@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(Netflix\ Background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    color: white;
+}
+.sign{
+    background-color: transparent;
+    padding: 60px;
+    border: 2px solid rgba(255,255, 255, 0.5);
+    backdrop-filter: blur(2px); 
+    /* took help from youtube for this blurry effect */
+    border-radius: 18px;
+    transform: scale(1.3);
+}
+.sign .In1{
+    display: block;
+    margin-top: 7px;
+    margin-bottom: 6px;
+    background-color: transparent;
+    color: white;
+    padding: 8px;
+    width: 250px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    /* took help from youtube to make form border less  */
+}
+.sign .In2{
+    display: block;
+    margin-top: 7px;
+    margin-bottom: 6px;
+    background-color: transparent;
+    color: white;
+    padding: 8px;
+    width: 250px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white
+    /* took help from youtube to make form border less  */
+}
+.sign input::placeholder{
+    color: white;
+}
+.sign h2{
+    margin-bottom: 25px;
+    color: white;
+    
+}
+.sign .btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px 100px 10px 100px;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    border-color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    cursor: pointer;
+    transition: transform 0.6s;
+}
+.sign .btn:hover{
+    transform: scale(1.1);
+}
+.sign .rememberme{
+    margin-top: 16px;
+}
+.sign .rememberme .In3{
+    display: inline;
+    margin-right: 12px;
+    vertical-align: middle;
+}
